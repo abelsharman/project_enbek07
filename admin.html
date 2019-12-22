@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>admin page</title>
+        <link rel="stylesheet" href="admin.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body id="bodya">
+        <footer>
+            <div class="e">
+                <p class="a">adminka <strong class="b">page</strong><sup class="c">R</sup></p>
+            </div>
+        </footer>
+    
+        <main>
+            <div class="k">
+                <img src="images/5.png">
+            </div>
+             
+            <p class="m">Products</p>
+            <button class="n" onclick="first()"><p>Add product</p></button>
+            <div class="o">
+                <table id="tablea">
+                    <tr>
+                        <th>Status</th>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Product Type</th>
+                        <th>Garanty</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr>
+                        <td>Active</td>
+                        <td>Зерновые культуры</td>
+                        <td>500 000</td>
+                        <td>New</td>
+                        <td>No</td>
+                        <td><img  width="30px" src="images/9.png"></td>
+                    </tr>
+                    <tr>
+                        <td>Active</td>
+                        <td>Масличные культуры</td>
+                        <td>450 000</td>
+                        <td>New</td>
+                        <td>No</td>
+                        <td><img  width="30px" src="images/9.png"></td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div id="p">
+                <div class="q">
+                    <div>
+                        <p class="pro">Add new product:</p>
+                    </div>
+                <div class="r">
+                    <input type="text" placeholder="Name" class="s" id="name"><br>
+                    <input type="text" placeholder="Price" class="s" id="email"><br>
+                    <input type="text" placeholder="Garanty" class="s" id="phone"><br>
+                    <select class="t" id="admin">
+                        <option>New</option>
+                        <option>Refresh</option>
+                        <option>Used</option>
+                    </select><br>
+                    <div class="u">
+                        <input type="checkbox" id="mycheckbox">Set Active
+                        <button class="v" onclick="second()">Add new product</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </main>
+        <script src="admin.js" defer></script>
+    </body>
+</html>

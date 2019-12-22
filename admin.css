@@ -1,0 +1,150 @@
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 5px 5px -5px lightgray;
+}
+.a{
+    font-weight: bold;
+    color: darkgray;
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
+    margin-top: 0;}
+.b{
+    color: darkred;}
+.c{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 0.4em;
+    color: black;}
+.e{
+    display: inline-block;
+}
+/*Main         */
+main{
+    color: lightgray;
+    font-family: "Lato", sans-serif;
+}
+.k{
+    position: absolute;
+    height: 100%;
+    width: 6.7%;
+    border-right: 1px solid lightgray;
+}
+.k img{
+    width: 50%;
+    margin: 40px 30%;
+    padding-right: 18px;
+    border-right: 2px solid lightgreen;
+}
+.m{
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    color: darkgrey;
+    font-size: 1.2em;
+}
+.n{
+    position: absolute;
+    top: 15%;
+    left: 89%;
+    background-color: lightgreen; 
+    border-radius: 5px;
+}
+.n p{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.o{
+    position: absolute;
+    top: 17%;
+    left: 11%;
+    padding-bottom: 100px;
+}
+tr{
+    line-height: 2;  
+}
+th, td{
+    width: 18.8%;
+    border-bottom: 1px solid lightgray;  
+    color: darkgray;
+    text-align: center;
+}
+#p{
+    position: absolute;
+    top: 8%;
+    left: 65%;
+    background-color: white;
+    width: 35%;
+    height: 100%;
+    display: none;
+}
+.q{
+    margin-top: 30%; 
+    margin-left: 5%;
+}
+.r{
+    margin-top: 10%;
+}
+.s{
+    width: 100%;
+    line-height: 2.5;
+    font-size: 15px; 
+    border: 5px red;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+.u p, .v{
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.u .v{
+    background-color:  lightgreen;
+    width: 45%;
+    height: 35px;
+}
+.pro{
+     color: darkgray; 
+    font-size: 20px;
+    margin: 0;
+}
+@media screen and (max-width: 420px){
+    .k, .m{
+        display: none;
+    }
+    th, td{
+        width: 40px;
+        font-size: 0.5em;
+    }
+    .n{
+        position: absolute;
+        top: 11%;
+        left: 71%;
+        
+    }
+    .n p{
+        font-size: 0.7em;
+    }
+    #p{
+        width: 200px;
+        top: 8%;
+        left: 43%;
+    }
+    .pro{
+        font-size: 0.7em;
+    }
+    .s{
+        line-height: 1.5;
+        font-size: 10px; 
+        margin-bottom: 10px;
+    }
+    .v{
+        width: 30px;
+    }
+    .u p, .v{
+        margin-left: 0;
+        margin-top: 10%;
+    }
+}
