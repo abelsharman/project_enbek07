@@ -1,0 +1,15 @@
+{
+    "macbookpro" : ["MacBook Pro", "500 000", "New", "1 year"],
+    "maсbookair" : ["Macbook Air", "300 000", "Used", "No"],
+    "maсbookair2018" : ["Macbook Air 2018", "450 000", "New", "1 year"],
+    "acernitro7" : ["Acer Nitro 7", "450 000", "New", "2 years"],
+    "acernitro5" : ["Acer Nitro 5", "250 000", "Refresh", "1 year"],
+    "acernitro5spin" : ["Acer Nitro 5 Spin", "200 000", "Used", "No"],
+    "lenovolegion" : ["Lenovo Legion", "500 000", "New", "2 years"],
+    "lenovoideapad" : ["Lenovo Ideapad 330", "230 000", "New", "1 year"],
+    "lenovothink" : ["Lenovo ThinkPad X", "600 000", "New", "3 years"],
+    "asusvivo14" : ["Asus Vivobook 14", "150 000", "Used", "No"],
+    "asusvivo15" : ["Asus Vivobook 15", "200 000", "Refresh", "1 year"],
+    "asuse406" : ["Asus E406S", "250 000", "New", "No"],
+    "asustif" : ["Asus Tuf Gaming", "300 000", "New", "2 years"]
+}
